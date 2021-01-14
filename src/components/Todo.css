@@ -1,0 +1,34 @@
+.Todo{
+ display: flex;
+ margin: 0 -3rem 4px;
+ padding: 1.1rem 3rem;
+ height: 77px;
+ justify-content: space-between;
+ align-items: center;
+ background: rgba(255, 255, 255, 0.2);
+ overflow: hidden;
+ position: relative;
+ transition: opacity 500ms ease-in-out;
+ list-style-type: none;
+
+}
+.Todo li {
+ margin:10px auto; 
+ padding: 10px;
+ width:100%;
+ background-color: rgba(220,220,220, 0.2);
+ border-radius: 20em;
+}
+.Todo button{
+ border: none;
+ font-size: 1em;
+ margin: 0.4em;
+ background: rgb(206, 109, 109);
+ -webkit-appearance: none;
+ cursor: pointer;
+ color: #fff;
+ flex-shrink: 0;
+ margin-left: auto;
+ border-radius: 50%;
+ align-items: center;
+}

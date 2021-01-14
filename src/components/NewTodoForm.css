@@ -1,0 +1,36 @@
+*, *:before, *:after {
+  box-sizing: border-box;
+
+}
+
+.NewTodoForm{
+
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 15px;
+  padding: 0 10px 0 5px;
+  border-bottom: 1px solid #8e979c;
+  padding: 10px 20px;
+position: fixed;
+  bottom: 0px;
+
+}
+.NewTodoForm input{
+  padding: 10px;
+  margin:5px 0; 
+  border:0;
+  box-shadow:0 0 15px 4px rgba(0,0,0,0.06);
+  border-radius:10px;
+  width:100%;
+}
+.NewTodoForm button{
+
+  border:none;
+  background-color:#6bbcf1;
+  color:#fff;
+  font-weight:600;
+  border-radius:5px;
+  width:30%;
+  padding: 10px;
+  margin:5px 0; 
+}
